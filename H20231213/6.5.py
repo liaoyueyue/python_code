@@ -22,4 +22,4 @@ def add_watermark(input_image_path, output_image_path, watermark_text):
     watermarked.save(output_image_path)
 
 # 使用示例
-add_watermark('绿色麦田.jpeg', '绿色麦田加水印.png', '2350210105严显鹏')
+add_watermark('绿色麦田.jpeg', '绿色麦田加水印.png', 'student_num')
